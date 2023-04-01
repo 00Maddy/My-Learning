@@ -1,1 +1,2 @@
-console.log("I love to handling only happy thingss");
+console.log("I love to handling only happy things");console.log("I love to handling only happy things");
+console.log("I love to handling only happy things");
