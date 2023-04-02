@@ -19,8 +19,28 @@ var header = document.getElementById('header-title');
 // list[4].style.backgroundColor = 'green';
 // console.log(last);
 
-var secondItems = document.querySelector('.list-group-item:nth-child(2)');
-secondItems.style.backgroundColor = 'green';
+// var secondItems = document.querySelector('.list-group-item:nth-child(2)');
+// secondItems.style.backgroundColor = 'green';
 
-var thirdItems = document.querySelector('.list-group-item:nth-child(3)');
-thirdItems.style.display = 'none';
+// var thirdItems = document.querySelector('.list-group-item:nth-child(3)');
+// thirdItems.style.display = 'none';
+
+// var title = document.querySelectorAll('li:nth-child(odd)'); 
+
+// console.log(title);
+
+var newDiv = document.createElement('div');
+newDiv.className='Hello';
+newDiv.id='hello1';
+newDiv.setAttribute('title', 'helloDiv');
+var newDivText = document.createTextNode("Hello World");
+
+newDiv.appendChild(newDivText);
+
+var container = document.querySelector('header.container');
+var h1 = document.querySelector('header h1');
+
+console.log(newDiv);
+console.log(h1);
+
+container.insertBefore(newDiv, h1);
