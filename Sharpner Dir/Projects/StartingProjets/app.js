@@ -13,3 +13,8 @@ list[2].style.backgroundColor = 'green';
 for(i=0;i<list.length;i++){
     list[i].style.font = 'bold';
 }
+
+// var last = document.getElementsByClassName('items');
+var last = document.getElementsByClassName('custom-item');
+list[4].style.backgroundColor = 'green';
+console.log(last);
